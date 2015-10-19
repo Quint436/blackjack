@@ -1,0 +1,117 @@
+body
+{
+	background-image: url("https://www.colourbox.com/preview/3858254-vignetted-card-suits-and-poker-texture.jpg");
+	background-size: 100% 100%;
+	position: relative;
+}
+
+#name
+{
+	background: rgba(255, 255, 255, 0.2);
+}
+#betInput
+{
+	text-align: center;
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	margin: auto;
+	margin-top: 50px;
+}
+#bet
+{
+	color: black;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	height: 40px;
+	width: 100px;
+
+}
+.cards
+{
+	border: 2px solid black;
+	height: 150px;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+	background-size: 100% 100%;
+	background-position: static;
+	margin-top: 10px;
+}
+
+#dealer-container
+{
+	margin: auto;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	color: white;
+}
+
+#player-container
+{
+	margin: auto;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#buttons
+{
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 39%;
+}
+#new-game
+{
+	text-align: center;
+	border: solid white;
+	height: 40px;
+	width: 100px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: white;
+	margin: 20px;
+	background: rgba(255, 255, 255, 0.2);
+}
+#hit
+{
+	text-align: center;
+	border: solid white;
+	height: 40px;
+	width: 100px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: white;
+	margin: 20px;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#stand
+{
+	text-align: center;
+	border: solid white;
+	height: 40px;
+	width: 100px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: white;
+	margin: 20px;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#score
+{
+	border: 2px solid white;
+	background: rgba(255, 255, 255, 0.2);
+	height: 35px;
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 25px;
+	text-align: center;
+}
